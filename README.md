@@ -7,7 +7,7 @@ This portfolio showcases my skills, projects, and experience with interactive UI
 
 ## 🚀 Live Demo
 
-🔗 https://your-portfolio-link-here
+[🔗 https://your-portfolio-link-here](https://basic-aayu-portfolio.netlify.app/)
 
 ---
 
