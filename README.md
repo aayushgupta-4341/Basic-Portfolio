@@ -41,7 +41,8 @@ This portfolio showcases my skills, projects, and experience with interactive UI
 
 ## 📸 Screenshot
 
-(Add your portfolio screenshot here)
+<img width="1919" height="961" alt="Screenshot 2026-03-28 131950" src="https://github.com/user-attachments/assets/44e6fdfe-9d9e-45a4-bd9f-3ee6b7f4c6d9" />
+
 
 ---
 
