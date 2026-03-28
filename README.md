@@ -13,7 +13,7 @@ This portfolio showcases my skills, projects, and experience with interactive UI
 
 ## 📂 GitHub Repository
 
-🔗 https://github.com/aayushgupta-4341/your-portfolio-repo
+🔗 [https://github.com/aayushgupta-4341/your-portfolio-repo](https://github.com/aayushgupta-4341/Basic-Portfolio.git)
 
 ---
 
