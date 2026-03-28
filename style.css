@@ -1,0 +1,150 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* NAV */
+nav{
+display:flex;
+justify-content:space-between;
+padding:15px 50px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero span{
+color:#4caf50;
+}
+
+.btn{
+margin-top:15px;
+padding:10px 20px;
+background:#4caf50;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* SECTIONS */
+section{
+padding:80px 20px;
+text-align:center;
+}
+
+/* PROJECT CARDS */
+.card{
+background:rgba(255,255,255,0.05);
+margin:15px auto;
+padding:20px;
+max-width:300px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.05);
+}
+
+/* CONTACT */
+.icons{
+display:flex;
+justify-content:center;
+gap:20px;
+font-size:25px;
+margin-top:10px;
+}
+
+.icons a{
+color:white;
+transition:0.3s;
+}
+
+.icons a:hover{
+color:#4caf50;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+/* Toggle Button */
+#themeToggle{
+background:none;
+border:none;
+font-size:20px;
+cursor:pointer;
+color:white;
+}
+
+/* Light Mode */
+body.light{
+background:#f4f4f4;
+color:#111;
+}
+
+/* Navbar Light */
+body.light nav{
+background:rgba(0,0,0,0.05);
+}
+
+body.light nav a{
+color:#111;
+}
+
+/* Cards Light */
+body.light .card{
+background:#fff;
+color:#000;
+}
+
+/* Footer Light */
+body.light footer{
+background:#ddd;
+color:#000;
+}
+
+/* RESPONSIVE */
+@media(max-width:600px){
+nav{
+flex-direction:column;
+align-items:center;
+}
+
+nav ul{
+flex-direction:column;
+}
+}
